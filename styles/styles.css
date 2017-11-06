@@ -1,0 +1,33 @@
+.all {
+    background-color: rgb(223, 239, 250);
+    background-size: 100%;
+}
+/* Style of Header section */
+.jumbotron {
+    padding: 2%;
+    border-bottom: solid grey 0.5px;
+}
+
+#blueBack {
+    background-color: rgb(223, 239, 250);
+}
+.myH2 {
+    font-family: Helvetica, sans-serif;
+    color: grey;
+    letter-spacing: 5px;
+}
+
+.header {
+    margin-bottom: 3%;
+}
+
+/* Style of List_Of_Items section */
+
+/* Style of Footer section */
+.footEnd {
+    border-top: solid 0.5px grey;
+    color: #4988B2;
+    padding: 1%;
+    font-size: 0.8vw;
+    text-align: center;
+}
