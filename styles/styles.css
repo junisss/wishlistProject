@@ -1,19 +1,21 @@
-* {
-    background-color: rgb(223, 239, 250);
+body {
+    background-color: rgb(223, 239, 250) !important;
+    margin: 0;
+    padding-bottom: 470px;
 }
 
 .all {
     background-color: rgb(223, 239, 250);
     background-size: 100%;
 }
-/* Style of Header section */
-.jumbotron {
-    padding: 2%;
-    border-bottom: solid grey 0.5px;
-}
 
-#blueBack {
+/* Style of Header section */
+#myJumbotron {
     background-color: rgb(223, 239, 250);
+    margin-bottom: 1%;
+    border-bottom: grey solid;
+    margin: 1%;
+    padding-bottom: 1%;
 }
 
 .header .img-responsive {
@@ -26,44 +28,49 @@
     font-family: Helvetica, sans-serif;
     color: grey;
     letter-spacing: 0.5vw;
-    font-size: 3vw;
 }
 
 .header {
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
-.container-1 .btn {
+.myBtnStyle {
+    border-radius: 20px !important;
     width: 100%;
     height: auto;
     max-width: 100%;
-    font-size: 1.5vw;
+    text-align: center;
+    padding-left: 0 !important;
 }
 
-.container-1 input {
+.myInputStyle {
+    border-radius: 20px !important;
     width: 100%;
     height: auto;
     max-width: 100%;
-    font-size: 1.5vw;
-}
-
-.container-1 {
-    margin-bottom: -3vw;
 }
 
 /* Style of List_Of_Items section */
-.form-control {
+#list {
     width: 100%;
     height: auto;
     max-width: 100%;
-    font-size: 1vw;
+    font-size: 1.5vw;
+    background-color: white;
+    background-size: cover;
 }
 
 /* Style of Footer section */
+.center-block{
+    float: none;
+    margin: 0 auto;
+}
+
 .footer {
-    border-top: solid 0.5px grey;
+    /*border-top: solid 0.5px grey;*/
+    border-top: solid grey;
     color: #4988B2;
     padding: 1%;
-    font-size: 1.2vw;
     text-align: center;
+    background-color: rgb(223, 239, 250);
 }
