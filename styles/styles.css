@@ -60,6 +60,11 @@ body {
     background-size: cover;
 }
 
+ol {
+    color: black;
+    font-size: 1vw;
+}
+
 /* Style of Footer section */
 .center-block{
     float: none;
