@@ -1,8 +1,6 @@
 function saveItemToList() {
     const getUserItemValue = document.getElementById('newItem').value;
-    if (!getUserItemValue) {
-        return;} 
-        
+    if (!getUserItemValue) return;
     const createListItem = document.createElement('li');
     const copyTextToList = document.createTextNode(getUserItemValue);
     createListItem.appendChild(copyTextToList);
