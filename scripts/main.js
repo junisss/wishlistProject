@@ -9,7 +9,11 @@ function displayUserInput(getUserItemValue) {
     const copyTextToList = document.createTextNode(getUserItemValue);
     createListItem.appendChild(copyTextToList);
     document.getElementById('listOfItems').appendChild(createListItem);
+    clearField();
 };
 
+function clearField() {
+    document.getElementById('newItem').value = '';
+}
 
  
